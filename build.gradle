@@ -26,6 +26,16 @@ dependencies {
 	// You may need to force-disable transitiveness on them.
 }
 
+// THE FOLLOWING WAS PASTED IN WITH EXPLICIT VERSIONS VS WHAT'S DEFINED IN THE gradle.properties file
+//dependencies {
+//	minecraft "com.mojang:minecraft:19w38b"
+//	mappings "net.fabricmc:yarn:19w38b+build.12"
+//	modCompile "net.fabricmc:fabric-loader:0.6.3+build.167"
+//
+//	//Fabric api
+//	modCompile "net.fabricmc.fabric-api:fabric-api:0.4.4+build.248-1.15"
+//}
+
 processResources {
 	inputs.property "version", project.version
 
